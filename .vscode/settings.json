@@ -1,0 +1,61 @@
+{
+  // 制表符设置
+  "editor.tabSize": 2,
+  // 字体大小设置
+  // "editor.fontSize": 14,
+  // 换行规则
+  "editor.wordWrap": "on",
+  // 保存规则
+  "files.autoSave": "onFocusChange",
+  // 文件关联设置
+  "files.associations": {
+      "*.wpy": "vue"
+  },
+  // git路径设置
+  // "git.path": "D:\\app\\Git\\cmd\\git.exe", 
+  
+  // One Dark Pro 配置
+  "workbench.colorTheme": "One Dark Pro Vivid", // 颜色主题设置
+  
+  // Prettier 配置
+  "prettier.semi": false, // 取消每行末尾的分号
+  "prettier.singleQuote": true, // 默认为单引号
+  "prettier.printWidth": 200, // 尴尬换行???
+  
+  // template 红线提示
+  "vetur.validation.template": false,
+  "editor.quickSuggestions": {
+      "strings": true
+  },
+  "search.followSymlinks": false,
+  "gitlens.advanced.messages": {
+      "suppressShowKeyBindingsNotice": true
+  },
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "git.enableSmartCommit": true,
+  "window.zoomLevel": -1,
+  "eslint.validate": [
+      {
+          "language": "vue",
+          "autoFix": true
+        },
+        {
+          "language": "html",
+          "autoFix": true
+        },
+        {
+          "language": "javascript",
+          "autoFix": true
+        },
+      "javascriptreact"
+  ],
+  "eslint.autoFixOnSave": true, // 太卡了
+  // 编辑器字体设置
+  "editor.fontFamily": "'Microsoft YaHei Mono'",
+  "emmet.triggerExpansionOnTab": true,
+  "element-helper.version": "2.5",
+  "breadcrumbs.enabled": true,
+  "window.titleBarStyle": "custom",
+  "npm.packageManager": "yarn",
+  "eslint.packageManager": "yarn",
+  }

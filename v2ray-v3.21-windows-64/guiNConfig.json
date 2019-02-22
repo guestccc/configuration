@@ -1,0 +1,54 @@
+{
+  "inbound": [
+    {
+      "localPort": 1080,
+      "protocol": "socks",
+      "udpEnabled": true
+    }
+  ],
+  "logEnabled": false,
+  "loglevel": "warning",
+  "index": 0,
+  "vmess": [
+    {
+      "configVersion": 2,
+      "address": "38.106.22.111",
+      "port": 45439,
+      "id": "dbd01925-540a-4033-9213-c01f6cc79fac",
+      "alterId": 64,
+      "security": "aes-128-gcm",
+      "network": "tcp",
+      "remarks": "ccc",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "",
+      "allowInsecure": "",
+      "configType": 1,
+      "testResult": "",
+      "subid": ""
+    }
+  ],
+  "muxEnabled": true,
+  "chinasites": false,
+  "chinaip": false,
+  "useragent": [],
+  "userdirect": [],
+  "userblock": [],
+  "kcpItem": {
+    "mtu": 1350,
+    "tti": 50,
+    "uplinkCapacity": 12,
+    "downlinkCapacity": 100,
+    "congestion": false,
+    "readBufferSize": 2,
+    "writeBufferSize": 2
+  },
+  "autoSyncTime": false,
+  "sysAgentEnabled": false,
+  "listenerType": 2,
+  "urlGFWList": "",
+  "allowLANConn": false,
+  "remoteDNS": "",
+  "subItem": null
+}
